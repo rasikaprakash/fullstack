@@ -1,0 +1,28 @@
+const addonData = [
+    {
+      title: 'Data Add-ons',
+      plans: [
+        { name: '1GB', price:'5', validity: 1, calls: 'NA', sms: 'NA' },
+        { name: '5GB', price: '15', validity: 7, calls: 'NA', sms: 'NA' },
+        { name: 'Unlimited 1 Day', price: 10, validity: 1, calls: 'NA', sms: 'NA' }
+      ]
+    },
+    {
+      title: 'Combo Add-ons',
+      plans: [
+        { name: 'Data + Talktime', price: '2', validity: 10, calls: '500 minutes', sms: 'NA' },
+        { name: 'Talktime + SMS', price: '25', validity: 15, calls: 'NA', sms: '100 SMS/day' },
+        { name: 'All-in-One', price: '35', validity: 30, calls: 'Unlimited', sms: 'Unlimited' }
+      ]
+    },
+    {
+      title: 'Validity Extension Add-ons',
+      plans: [
+        { name: '7 Days', price: '5', validity: 7, calls: 'NA', sms: 'NA' },
+        { name: '14 Days', price: '10', validity: 14, calls: 'NA', sms: 'NA' },
+        { name: '30 Days', price: '15', validity: 30, calls: 'NA', sms: 'NA' }
+      ]
+    }
+  ];
+  
+  export default addonData;
